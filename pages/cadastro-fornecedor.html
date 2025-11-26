@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Cadastro Fornecedores</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <h1>Cadastro de Fornecedor</h1>
+      <label for="nomeForn">Nome do Fornecedor</label>
+        <input type="text" id="nomeForn" name="nomeForn"/>
+        <label for="doc">Digite um CPF ou CNPJ</label>
+        <input type="text" name="doc" id="doc" pattern="\d{11}|\d{14}|\d{3}\.\d{3}\.\d{3}-\d{2}|\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}" 
+        title="Digite um CPF (12345678900 ou 123.456.789-00) ou CNPJ (12345678000199 ou 12.345.678/0001-99)" required/>
+        <label for="enderecoForn">Endereço</label>
+        <input type="text" id="enderecoForn" name="enderecoForn"/>
+        <label for="telefoneForn">Telefone</label>
+        <input type="tel" id="telefoneForn" name="telefoneForn" />
+        <label for="emailForn">E-Mail</label>
+        <input type="email" id="emailForn" name="emailForn" />
+        <button type="submit">Salvar Fornecedor</button>
+        <a href="home.html"><button type="button">voltar</button></a>
+      </form>
+  </body>
+</html>
