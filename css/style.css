@@ -1,0 +1,53 @@
+body {
+        font-family: arial, sans-serif;
+        background-color: #f4f4f4;
+        justify-items: center;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    form{
+        justify-items: center;
+        background: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        min-width: 400px;
+        max-width: 430px;
+
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    input, select, textarea, button {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    a button {
+        background-color: #6c757d;
+    }
+
+    a button:hover {
+        background-color: #565e64;
+    }
